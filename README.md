@@ -33,7 +33,7 @@ Open your browser and navigate to `http://localhost:3000`.
 
 ## 🚀 Quick Tutorial
 
-1. **Explore the Archive:** Browse the 5x5 viral reel archive grid on the dashboard. Click on any reel card to load its detailed metrics.
+1. **Explore the Archive:** Browse the viral reel archive grid on the dashboard. Click on any reel card to load its detailed metrics.
 2. **Inspect Inside the Reel:** View the selected video's **Topic**, **Hook**, and **Structure** along with their AI confidence progress bars, quote, plays, and likes.
 3. **Run Live Simulation:** Click the **Run Live** button in the top navigation to simulate real-time script classification and cost increments.
 4. **Explore Blueprints:** Use the top menu tabs to inspect the **Concept**, **Replit & RevenueCat** blueprint, **Funnel** projections, and **Checklist**.
@@ -44,11 +44,11 @@ Open your browser and navigate to `http://localhost:3000`.
 
 ```mermaid
 graph TD
-    A[Viral Reels Source (TikTok / Shorts)] -->|Scraping & Transcription| B[WinR Lab Ingestion Engine]
-    B -->|jev AI Model| C[Script Classification & Tagging]
+    A[Viral Reels Source] -->|Scraping and Transcription| B[WinR Lab Ingestion Engine]
+    B -->|jev AI Model| C[Script Classification and Tagging]
     C -->|Topic, Hook, Structure| D[React Dashboard UI]
-    D -->|User Interactions & Navigation| E[Tabs: WinR Lab, Concept, Replit, Funnel, Checklist]
-    E -->|Monetization Integration| F[Stripe & RevenueCat Paywalls]
+    D -->|User Interactions and Navigation| E[Tabs: WinR Lab, Concept, Replit, Funnel, Checklist]
+    E -->|Monetization Integration| F[Stripe and RevenueCat Paywalls]
 ```
 
 ---
